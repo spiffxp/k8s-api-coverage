@@ -1,0 +1,2688 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+  <!--
+
+  .tab { margin-left: 50px; }
+
+  .styleheader {color: white; size: A4}
+
+  .covered {color: green; size: A3}
+
+  .notcovered {color: red; size: A3}
+
+  .ignored {color: white; size: A4}
+
+  .values {color: yellow; size: A3}
+
+  table, th, td { border: 1px solid white; text-align: center}
+
+  .braces {color: white; size: A3}
+  -->
+</style>
+<body style="background-color:rgb(0,0,0); font-family: Arial">
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: Pod
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">ObjectMeta
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Spec
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Status
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TypeMeta
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/apimachinery/pkg/apis/meta/v1
+    <br>Type: TypeMeta
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">APIVersion
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Kind
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/apimachinery/pkg/apis/meta/v1
+    <br>Type: ObjectMeta
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Annotations
+          
+          
+        </div>
+      
+    
+      
+        <div class="ignored tab">ClusterName</div>
+      
+    
+      
+        <div class="covered tab">CreationTimestamp
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">DeletionGracePeriodSeconds
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">DeletionTimestamp
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Finalizers
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">GenerateName
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Generation
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">Initializers</div>
+      
+    
+      
+        <div class="covered tab">Labels
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">ManagedFields</div>
+      
+    
+      
+        <div class="covered tab">Name
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Namespace
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">OwnerReferences
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ResourceVersion
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SelfLink
+          
+          
+        </div>
+      
+    
+      
+        <div class="ignored tab">UID</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/apimachinery/pkg/apis/meta/v1
+    <br>Type: OwnerReference
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">APIVersion
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">BlockOwnerDeletion
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Controller
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Kind
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Name
+          
+          
+        </div>
+      
+    
+      
+        <div class="ignored tab">UID</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: PodSpec
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">ActiveDeadlineSeconds
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">Affinity</div>
+      
+    
+      
+        <div class="covered tab">AutomountServiceAccountToken
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Containers
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">DNSConfig</div>
+      
+    
+      
+        <div class="covered tab">DNSPolicy
+          
+          
+            &emsp; &emsp; <span class="values">Values: [ClusterFirst,Default]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">EnableServiceLinks
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">HostAliases
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">HostIPC
+          
+          
+            &emsp; &emsp; <span class="values">Values: [false]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">HostNetwork
+          
+          
+            &emsp; &emsp; <span class="values">Values: [false,true]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">HostPID
+          
+          
+            &emsp; &emsp; <span class="values">Values: [false]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Hostname
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">ImagePullSecrets</div>
+      
+    
+      
+        <div class="covered tab">InitContainers
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">NodeName
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">NodeSelector
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">PreemptionPolicy</div>
+      
+    
+      
+        <div class="covered tab">Priority
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">PriorityClassName</div>
+      
+    
+      
+        <div class="notcovered tab">ReadinessGates</div>
+      
+    
+      
+        <div class="covered tab">RestartPolicy
+          
+          
+            &emsp; &emsp; <span class="values">Values: [Always,Never,OnFailure]</span>
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">RuntimeClassName</div>
+      
+    
+      
+        <div class="covered tab">SchedulerName
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SecurityContext
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ServiceAccountName
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">ShareProcessNamespace</div>
+      
+    
+      
+        <div class="covered tab">Subdomain
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TerminationGracePeriodSeconds
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Tolerations
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Volumes
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: PodSecurityContext
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">FSGroup
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">RunAsGroup</div>
+      
+    
+      
+        <div class="notcovered tab">RunAsNonRoot</div>
+      
+    
+      
+        <div class="covered tab">RunAsUser
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SELinuxOptions
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">SupplementalGroups</div>
+      
+    
+      
+        <div class="notcovered tab">Sysctls</div>
+      
+    
+      
+        <div class="notcovered tab">WindowsOptions</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: SELinuxOptions
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Level
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">Role</div>
+      
+    
+      
+        <div class="notcovered tab">Type</div>
+      
+    
+      
+        <div class="notcovered tab">User</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: Toleration
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Effect
+          
+          
+            &emsp; &emsp; <span class="values">Values: [NoExecute]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Key
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Operator
+          
+          
+            &emsp; &emsp; <span class="values">Values: [Exists]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TolerationSeconds
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">Value</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: HostAlias
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Hostnames
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">IP
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: Container
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Args
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Command
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Env
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">EnvFrom
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Image
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ImagePullPolicy
+          
+          
+            &emsp; &emsp; <span class="values">Values: [Always,IfNotPresent]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Lifecycle
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">LivenessProbe
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Name
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Ports
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ReadinessProbe
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Resources
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SecurityContext
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Stdin
+          
+          
+            &emsp; &emsp; <span class="values">Values: [true,false]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">StdinOnce
+          
+          
+            &emsp; &emsp; <span class="values">Values: [false,true]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TTY
+          
+          
+            &emsp; &emsp; <span class="values">Values: [false]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TerminationMessagePath
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TerminationMessagePolicy
+          
+          
+            &emsp; &emsp; <span class="values">Values: [File,FallbackToLogsOnError]</span>
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">VolumeDevices</div>
+      
+    
+      
+        <div class="covered tab">VolumeMounts
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">WorkingDir</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: VolumeMount
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">MountPath
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">MountPropagation</div>
+      
+    
+      
+        <div class="covered tab">Name
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ReadOnly
+          
+          
+            &emsp; &emsp; <span class="values">Values: [true,false]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SubPath
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">SubPathExpr</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ResourceRequirements
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Limits
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Requests
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: Container
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Args
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Command
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Env
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">EnvFrom
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Image
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ImagePullPolicy
+          
+          
+            &emsp; &emsp; <span class="values">Values: [IfNotPresent,Always]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Lifecycle
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">LivenessProbe
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Name
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Ports
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ReadinessProbe
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Resources
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SecurityContext
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Stdin
+          
+          
+            &emsp; &emsp; <span class="values">Values: [false,true]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">StdinOnce
+          
+          
+            &emsp; &emsp; <span class="values">Values: [false,true]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TTY
+          
+          
+            &emsp; &emsp; <span class="values">Values: [false]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TerminationMessagePath
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TerminationMessagePolicy
+          
+          
+            &emsp; &emsp; <span class="values">Values: [FallbackToLogsOnError,File]</span>
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">VolumeDevices</div>
+      
+    
+      
+        <div class="covered tab">VolumeMounts
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">WorkingDir</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: VolumeMount
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">MountPath
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">MountPropagation</div>
+      
+    
+      
+        <div class="covered tab">Name
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ReadOnly
+          
+          
+            &emsp; &emsp; <span class="values">Values: [false,true]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SubPath
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">SubPathExpr</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: SecurityContext
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">AllowPrivilegeEscalation
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">Capabilities</div>
+      
+    
+      
+        <div class="covered tab">Privileged
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">ProcMount</div>
+      
+    
+      
+        <div class="covered tab">ReadOnlyRootFilesystem
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">RunAsGroup</div>
+      
+    
+      
+        <div class="notcovered tab">RunAsNonRoot</div>
+      
+    
+      
+        <div class="covered tab">RunAsUser
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">SELinuxOptions</div>
+      
+    
+      
+        <div class="notcovered tab">WindowsOptions</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: EnvFromSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">ConfigMapRef
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Prefix
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SecretRef
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ConfigMapEnvSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">LocalObjectReference
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Optional
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: LocalObjectReference
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Name
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: SecretEnvSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">LocalObjectReference
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Optional
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: Lifecycle
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">PostStart
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">PreStop
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: Handler
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Exec
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">HTTPGet
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TCPSocket
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ExecAction
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Command
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: HTTPGetAction
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="notcovered tab">HTTPHeaders</div>
+      
+    
+      
+        <div class="covered tab">Host
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Path
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Port
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Scheme
+          
+          
+            &emsp; &emsp; <span class="values">Values: [HTTP,HTTPS]</span>
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/apimachinery/pkg/util/intstr
+    <br>Type: IntOrString
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">IntVal
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">StrVal
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Type
+          
+          
+            &emsp; &emsp; <span class="values">Values: [1,]</span>
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: Handler
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Exec
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">HTTPGet
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TCPSocket
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ExecAction
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Command
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: HTTPGetAction
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="notcovered tab">HTTPHeaders</div>
+      
+    
+      
+        <div class="covered tab">Host
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Path
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Port
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Scheme
+          
+          
+            &emsp; &emsp; <span class="values">Values: [HTTP,HTTPS]</span>
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ContainerPort
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">ContainerPort
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">HostIP</div>
+      
+    
+      
+        <div class="covered tab">HostPort
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Name
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Protocol
+          
+          
+            &emsp; &emsp; <span class="values">Values: [TCP,UDP]</span>
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: Probe
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">FailureThreshold
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Handler
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">InitialDelaySeconds
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">PeriodSeconds
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SuccessThreshold
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TimeoutSeconds
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: Probe
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">FailureThreshold
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Handler
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">InitialDelaySeconds
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">PeriodSeconds
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SuccessThreshold
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">TimeoutSeconds
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: EnvVar
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Name
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Value
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ValueFrom
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: EnvVarSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">ConfigMapKeyRef
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">FieldRef
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ResourceFieldRef
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SecretKeyRef
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ObjectFieldSelector
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">APIVersion
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">FieldPath
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ResourceFieldSelector
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">ContainerName
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Divisor
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Resource
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/apimachinery/pkg/api/resource
+    <br>Type: Quantity
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Format
+          
+          
+            &emsp; &emsp; <span class="values">Values: [DecimalSI]</span>
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">d
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">i
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">s
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/apimachinery/pkg/api/resource
+    <br>Type: int64Amount
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="notcovered tab">scale</div>
+      
+    
+      
+        <div class="notcovered tab">value</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/apimachinery/pkg/api/resource
+    <br>Type: infDecAmount
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="notcovered tab">Dec</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ConfigMapKeySelector
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Key
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">LocalObjectReference
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Optional
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: SecretKeySelector
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Key
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">LocalObjectReference
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Optional
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: Volume
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Name
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">VolumeSource
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: VolumeSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="ignored tab">AWSElasticBlockStore</div>
+      
+    
+      
+        <div class="ignored tab">AzureDisk</div>
+      
+    
+      
+        <div class="ignored tab">AzureFile</div>
+      
+    
+      
+        <div class="ignored tab">CSI</div>
+      
+    
+      
+        <div class="ignored tab">CephFS</div>
+      
+    
+      
+        <div class="ignored tab">Cinder</div>
+      
+    
+      
+        <div class="covered tab">ConfigMap
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">DownwardAPI
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">EmptyDir
+          
+          
+        </div>
+      
+    
+      
+        <div class="ignored tab">FC</div>
+      
+    
+      
+        <div class="ignored tab">FlexVolume</div>
+      
+    
+      
+        <div class="ignored tab">Flocker</div>
+      
+    
+      
+        <div class="ignored tab">GCEPersistentDisk</div>
+      
+    
+      
+        <div class="ignored tab">GitRepo</div>
+      
+    
+      
+        <div class="ignored tab">Glusterfs</div>
+      
+    
+      
+        <div class="covered tab">HostPath
+          
+          
+        </div>
+      
+    
+      
+        <div class="ignored tab">ISCSI</div>
+      
+    
+      
+        <div class="ignored tab">NFS</div>
+      
+    
+      
+        <div class="ignored tab">PersistentVolumeClaim</div>
+      
+    
+      
+        <div class="ignored tab">PhotonPersistentDisk</div>
+      
+    
+      
+        <div class="ignored tab">PortworxVolume</div>
+      
+    
+      
+        <div class="covered tab">Projected
+          
+          
+        </div>
+      
+    
+      
+        <div class="ignored tab">Quobyte</div>
+      
+    
+      
+        <div class="ignored tab">RBD</div>
+      
+    
+      
+        <div class="ignored tab">ScaleIO</div>
+      
+    
+      
+        <div class="covered tab">Secret
+          
+          
+        </div>
+      
+    
+      
+        <div class="ignored tab">StorageOS</div>
+      
+    
+      
+        <div class="ignored tab">VsphereVolume</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: DownwardAPIVolumeSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">DefaultMode
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Items
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: DownwardAPIVolumeFile
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">FieldRef
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Mode
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Path
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ResourceFieldRef
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ObjectFieldSelector
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">APIVersion
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">FieldPath
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ResourceFieldSelector
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">ContainerName
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Divisor
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Resource
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: SecretVolumeSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">DefaultMode
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Items
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Optional
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">SecretName
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: KeyToPath
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Key
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Mode
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Path
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ProjectedVolumeSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">DefaultMode
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Sources
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: VolumeProjection
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">ConfigMap
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">DownwardAPI
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Secret
+          
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">ServiceAccountToken</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: SecretProjection
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Items
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">LocalObjectReference
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Optional
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: KeyToPath
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Key
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Mode
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Path
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: DownwardAPIProjection
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Items
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: DownwardAPIVolumeFile
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">FieldRef
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Mode
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Path
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">ResourceFieldRef
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ObjectFieldSelector
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">APIVersion
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">FieldPath
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ResourceFieldSelector
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">ContainerName
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Divisor
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Resource
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ConfigMapProjection
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Items
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">LocalObjectReference
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Optional
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: KeyToPath
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Key
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Mode
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Path
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: ConfigMapVolumeSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">DefaultMode
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Items
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">LocalObjectReference
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Optional
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: KeyToPath
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Key
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Mode
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Path
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: HostPathVolumeSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Path
+          
+          
+        </div>
+      
+    
+      
+        <div class="covered tab">Type
+          
+          
+        </div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+  <div class="styleheader">
+    <br>Package: k8s.io/api/core/v1
+    <br>Type: EmptyDirVolumeSource
+    <br>
+    <div class="braces">
+      <br>{
+    </div>
+    
+      
+        <div class="covered tab">Medium
+          
+          
+            &emsp; &emsp; <span class="values">Values: [,Memory]</span>
+          
+        </div>
+      
+    
+      
+        <div class="notcovered tab">SizeLimit</div>
+      
+    
+    <div class="braces">}</div>
+  </div>
+
+
+<br>
+<br>
+<div class="styleheader">Coverage Values</div>
+<br>
+<table style="width: 30%">
+  <tr class="styleheader"><td>Total Fields</td><td>304</td></tr>
+  <tr class="styleheader"><td>Covered Fields</td><td>238</td></tr>
+  <tr class="styleheader"><td>Ignored Fields</td><td>25</td></tr>
+  <tr class="styleheader"><td>Coverage Percentage</td><td>85.30465949820788</td></tr>
+</table>
+</body>
+</html>
